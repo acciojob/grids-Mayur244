@@ -10,7 +10,6 @@
 
 .container .row {
   border: 5px solid rgb(255, 188, 188);
-  /* height: 200px; */
 }
 
 .container .row > div {
@@ -19,27 +18,26 @@
   height: 200px;
 }
 
-.container .row:nth-of-type(1) > div:nth-child(1) {
+.r1c1 {
   background-color: teal;
 }
 
-.container .row:nth-of-type(1) > div:nth-child(2) {
+.r1c2 {
   background-color: thistle;
 }
 
-.container .row:nth-of-type(2) > div:nth-child(1) {
+.r2c1 {
   background-color: tomato;
 }
 
-.container .row:nth-of-type(2) > div:nth-child(2) {
+.r2c2 {
   background-color: turquoise;
 }
 
-
-.container .row:nth-of-type(3) > div:nth-child(1) {
+.r3c1 {
   background-color: violet;
 }
 
-.container .row:nth-of-type(3) > div:nth-child(2) {
+.r3c2 {
   background-color: yellowgreen;
 }
